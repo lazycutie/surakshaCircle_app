@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413967223128",
+    "project_id": "suraksha-circle-92844",
+    "storage_bucket": "suraksha-circle-92844.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413967223128:android:8aa80d363a969381d43d2d",
+        "android_client_info": {
+          "package_name": "com.hamza1254.surakshacircle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA41JIBtQar7UUJyR3ZKIJfqolMQvJ2uB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Suraksha Circle",
+    "slug": "safe-saheli",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "surakshacircleapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/icons/icon.png",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hamza1254.surakshacircle",
+      "usesCleartextTraffic": true,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "android.permissions.POST_NOTIFICATIONS",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/icon.png",
+        "backgroundColor": "#0F172A"
+      },
+      "googleServicesFile": "./google-services.json",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCHZOz8SiFSxdxJcUNXpTooYMuy-wAJz4Q"
+        }
+      }
+    },
+    "splash": {
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "07837af1-14dd-4304-b1d1-1d8e6a3a66a6"
+      }
+    },
+    "owner": "hamza1254s-organization",
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icons/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#0F172A",
+          "imageWidth": 200
+        }
+      ],
+      "expo-speech-recognition",
+      "expo-audio"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
